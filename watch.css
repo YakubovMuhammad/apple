@@ -1,0 +1,128 @@
+.navbar {
+  background: white;
+}
+.navbar > a > i {
+  color: black;
+}
+.navbar > a {
+  color: black;
+}
+.navbar > :nth-child(13),
+.navbar > :nth-child(14) {
+  color: black;
+}
+.text {
+  padding: 1.2%;
+  background: #222;
+  color: white;
+}
+.dollor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+.dollor>:nth-child(1){
+    font-size: 13px;
+    color: #333;
+}
+.dollor>:nth-child(2){
+    font-size: 13px;
+    color: #333;
+}
+.kerak{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.kerak>figure{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.kerak>figure>img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.sozlar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0 0 0;
+    background: #F5F5F7;
+}
+.sozlar>:nth-child(1){
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.sozlar>:nth-child(2){
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 10px 0;
+}
+.fa-brands {
+    color: black;
+}
+.sozlar>:nth-child(3){
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+}
+.sozlar>:nth-child(4){
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2%;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 35px;
+    background: dodgerblue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+.ohiri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: dodgerblue;
+    font-size: 20px;
+    padding:  0  0 2% ;
+}
+.rasmkatta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.rasmkatta>figure{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.rasmkatta>figure>img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}

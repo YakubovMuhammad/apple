@@ -1,0 +1,44 @@
+.navbar {
+  background: #f5f5f7;
+}
+.navbar > a > i {
+  color: #333;
+}
+.navbar > a {
+  color: #333;
+}
+.navbar > :nth-child(13),
+.navbar > :nth-child(14) {
+  color: #333;
+}
+.text {
+  padding: 1.5%;
+  background: white;
+}
+.home2 {
+  background: #f5f5f7;
+}
+.textbox > :nth-child(1) {
+  color: orange;
+  font-size: 18px;
+}
+.btn {
+  border-radius: 24px;
+  background: dodgerblue;
+  border: none;
+  padding: 4% 8%;
+  color: white;
+  font-weight: 600;
+}
+.anker {
+  width: 300px;
+}
+.textbox3{
+    padding: 2% 0  0;
+    font-size: 20px;
+}
+.textbox_item2{
+    font-size: 33px;
+    color: black;
+    font-weight: 600;
+}

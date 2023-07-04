@@ -1,0 +1,91 @@
+.navbar {
+  background: black;
+}
+.navbar > a > i {
+  color: white;
+}
+.navbar > a {
+  color: white;
+}
+.navbar > :nth-child(13),
+.navbar > :nth-child(14) {
+  color: white;
+}
+.text {
+  padding: 1.2%;
+  background: #222;
+  color: white;
+}
+.home{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    margin: auto;
+    background: black;
+    position: relative;
+}
+.home>:nth-child(1){
+    margin-right: 1100px;
+    object-fit: cover;
+    margin-top: -350px;
+    
+}
+.home>:nth-child(3){
+    margin-right: -1100px;
+    object-fit: cover;
+    margin-top: -465px;
+}
+.soz{
+    color: white;
+    z-index: 999;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.soz>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.soz>:nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+}
+.soz>:nth-child(2){
+    font-size: 55px;
+    font-weight: 600;
+}
+.soz>:nth-child(3){
+    font-size: 55px;
+    font-weight: 600;
+}
+.soz>:nth-child(4){
+    font-size: 55px;
+    font-weight: 600;
+}
+.soz>:nth-child(5){
+    color: dodgerblue;
+}
+.soz>:nth-child(6){
+    color: dodgerblue;
+}
+.soz>:nth-child(7){
+    color: dodgerblue;
+}
+
+.siz{
+    width: 100%;
+}
+.siz>figure{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.siz>figure>img{
+    width: 100%;
+    object-fit: cover;
+}

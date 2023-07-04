@@ -1,0 +1,94 @@
+.navbar {
+  background: #f5f5f7;
+}
+.navbar > a > i {
+  color: #333;
+}
+.navbar > a {
+  color: #333;
+}
+.navbar > :nth-child(13),
+.navbar > :nth-child(14) {
+  color: #333;
+}
+.text {
+  padding: 1.5%;
+}
+.hamma {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+  padding: 3% 18.4%;
+}
+.hamma > p {
+  font-size: 45px;
+  color: #666;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma;
+}
+.hamma > p > span {
+  color: black;
+}
+.iconlar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 19px;
+}
+.icon1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+}
+.icon2{
+     width: 200px;
+}
+.icon1 > img {
+  width: 36px;
+  height: 36px;
+}
+
+.icon2 > svg {
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+.icon1 > p {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.icon2 > p {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.icon1 > p > span {
+  color: dodgerblue;
+}
+.icon2 > p > span {
+  color: dodgerblue;
+}
+.rasmlar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:3% 17.4%  ;
+}
+.rasmlar>figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+}
+.rasmlar>figure>img{
+    width: 125px;
+
+}

@@ -1,0 +1,39 @@
+.navbar {
+    background: black;
+}
+.navbar > a > i {
+    color: #CCCCCC;
+}
+.navbar > a {
+    color: #CCCCCC;
+}
+.navbar > :nth-child(13),
+.navbar > :nth-child(14) {
+    color: #CCCCCC;
+}
+.text {
+    padding: 1.2%;
+    background: #CCCCCC;
+    color: white;
+}
+.rasmku{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.rasmku>figure{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.rasmku>figure>img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
